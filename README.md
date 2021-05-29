@@ -12,6 +12,9 @@ A three voice lines Harmonizer realized with SuperCollider and Juce framework.
 
 
 
-# - Three controllable voice lines, adding the third or the fifth note of the scale above or below the original sound. 
-# - Additional effects REVERB 
-# - OSC communication 
+# -
+Three controllable voice lines, adding the third or the fifth note of the scale above or below the original sound. 
+# -
+Additional effects REVERB 
+# -
+OSC communication 
