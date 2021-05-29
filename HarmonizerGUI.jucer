@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="WTbqG0" name="HarmonizerGUI" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginChannelConfigs="{1, 2}, {1, 2}">
+  <MAINGROUP id="pGJw6m" name="HarmonizerGUI">
+    <GROUP id="{B7975A2E-2FAF-815C-45A0-C50D2D4FA610}" name="Source">
+      <FILE id="c9hnE7" name="Knob2.png" compile="0" resource="1" file="Source/Source/Knob2.png"/>
+      <FILE id="OyUizz" name="sfondo.png" compile="0" resource="1" file="Source/Source/sfondo.png"/>
+      <FILE id="AOAYOO" name="Knob3.png" compile="0" resource="1" file="Source/Source/Knob3.png"/>
+      <FILE id="a5XreX" name="Knob1.png" compile="0" resource="1" file="Source/Source/Knob1.png"/>
+      <FILE id="CNkwNg" name="myLookAndFeel.h" compile="0" resource="0" file="Source/Source/myLookAndFeel.h"/>
+      <FILE id="GywSWZ" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/Source/PluginEditor.cpp"/>
+      <FILE id="ISF0WP" name="PluginEditor.h" compile="0" resource="0" file="Source/Source/PluginEditor.h"/>
+      <FILE id="DULegy" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/Source/PluginProcessor.cpp"/>
+      <FILE id="iU5OMG" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/Source/PluginProcessor.h"/>
+      <FILE id="ZARO80" name="myLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/Source/myLookAndFeel.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HarmonizerGUI"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HarmonizerGUI"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../OneDrive/Desktop/juce-6.0.8-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
